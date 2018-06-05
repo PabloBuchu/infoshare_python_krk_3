@@ -1,9 +1,14 @@
 # TODO: napisz program ktory sprawdzi czy liczba jest parzysta
 # TODO: liczba do sprawdzenia jest podawana przez uzyszkodnika
 
-value = int(input('Podaj liczbe: '))
+value = input('Podaj liczbe: ')
 
-if value % 2:
-    print('Nieparzysta')
+# TODO: sprawdz czy podane dane to liczba
+if value.isdigit():
+    value = int(value)
+    if value % 2:
+        print('Nieparzysta')
+    else:
+        print('Parzysta')
 else:
-    print('Parzysta')
+    print('Musisz podac liczbe')
