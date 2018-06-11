@@ -38,3 +38,27 @@ print(second_row)
 
 for name in names:
     print(name)
+
+additional_names = ['piotrek', 'kasia']
+
+# names.extend(additional_names)
+# print(names)
+
+my_list = names + additional_names
+print(my_list)
+
+name_to_remove = 'ania'
+my_list.remove(name_to_remove)
+print('after removal', my_list)
+
+# removed_item = my_list.pop(5)
+# print(removed_item)
+my_list.pop()
+print(my_list)
+
+del my_list[2]
+del names
+
+print(names)
+
+something = None
