@@ -1,8 +1,0 @@
-1. Zbiór produktów - Tworzymy aplikacje przechowującą spis produktów w magazynie. Produkt posiada id, nazwe, aktualną ilość.
-Klasa magazynu śledzi ilości poszczególnych produktów etc.
-
-2. Kształty - Tworzymy klasy odpowiednich kształtów trójkąt/kwadrat/okrąg. Dodajemy metody na liczenie ich obwodu / pola
-
-3. Kwiaciarnia - Program kwiaciarni. Tworzymy bukiety z kwiatów i naliczamy cene
-
-4.
