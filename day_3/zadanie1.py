@@ -1,6 +1,8 @@
 ADMIN_USERNAME = 'Piotr'
 name = input('Podaj imie: ')
 
+# TO JEST ZMIANA DLA GITA
+
 name_capitalized = name.lower().capitalize()
 
 if name_capitalized == ADMIN_USERNAME:
